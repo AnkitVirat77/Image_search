@@ -7,6 +7,8 @@ from dotenv import load_dotenv
 load_dotenv()
 gemini_key = os.getenv("GEMINI_API_KEY")
 
+## hello what are u doing
+
 # Configure Gemini API
 genai.configure(api_key=gemini_key)  # Replace with your actual API key
 
